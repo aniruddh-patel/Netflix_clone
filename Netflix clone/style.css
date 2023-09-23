@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(35, 35, 35);
+}
+a{
+    font-weight: 500;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: rgb(151, 149, 149);
+}
+
+/* 1st div  */
+
+.main_container {
+    height: 700px;
+    width: 100vw;
+    /* simple */
+    /* background-image:url(/main\ image.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(/images/main_image.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* transform: scale(1.25) translateY(-10%); */
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_first {
+    width: 100%;
+    height: 86px;
+    /* background-color: rgba(24, 25, 27, 0.479); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftside {
+    height: 80px;
+    width: 200px;
+    background-image: url(/images/logo.png);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5px 140px;
+}
+
+.rightside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 250px;
+    margin: 5px 165px;
+}
+
+select {
+    background-image: url(/images/buttonicon.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 15px;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 4px;
+}
+
+.rightside button {
+    width: 70px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    border-style: none;
+}
+
+.heading_second {
+    margin-top: 190px;
+    align-self: center;
+    width: 70vw;
+    height: 300px;
+    background-color: rgba(20, 20, 20, 0.226);
+    text-align: center;
+}
+
+.heading_second h1 {
+    font-size: 48px;
+}
+
+.heading_second p {
+    font-size: 25px;
+}
+
+.heading_second h3 {
+    font-size: 20px;
+}
+
+.email {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 590px;
+}
+
+.email button {
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    border-style: none;
+}
+
+.email input {
+    width: 380px;
+    height: 55px;
+    font-size: 18px;
+    background-color: rgba(29, 28, 28, 0.541);
+    border-radius: 4px;
+    border-style: none;
+    border: 1px solid grey;
+    padding: 0 12px;
+    font-weight: 600;
+}
+
+/* 2nd div */
+
+.tv {
+    margin-top: 8px;
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv_text {
+    height: 350px;
+    width: 40vw;
+    /* background-color: rgb(15, 65, 112); */
+    padding-top: 70px;
+    padding-right: 10px;
+
+}
+
+.tv_text h1 {
+    font-size: 50px;
+}
+
+.tv_text p {
+    font-size: 25px;
+}
+
+.tv_image {
+    height: 350px;
+    width: 40vw;
+    background-image: url(/images/tv.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 3rd div  */
+
+.phone {
+    margin-top: 8px;
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone_text {
+    height: 350px;
+    width: 40vw;
+    padding-top: 65px;
+    padding-right: 10px;
+}
+
+.phone_text h1 {
+    font-size: 50px;
+}
+
+.phone_text p {
+    font-size: 25px;
+}
+
+.phone_image {
+    height: 350px;
+    width: 40vw;
+    background-image: url(/images/phone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 4th div  */
+.laptop {
+    margin-top: 8px;
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.laptop_text {
+    height: 350px;
+    width: 40vw;
+    padding-top: 80px;
+    padding-right: 25px;
+}
+
+.laptop_text h1 {
+    font-size: 50px;
+}
+
+.laptop_text p {
+    font-size: 25px;
+}
+
+.laptop_image {
+    height: 350px;
+    width: 40vw;
+    background-image: url(/images/laptop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 5th div  */
+
+.children {
+    margin-top: 8px;
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.children_text {
+    height: 350px;
+    width: 40vw;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+
+.children_text h1 {
+    font-size: 50px;
+}
+
+.children_text p {
+    font-size: 25px;
+}
+
+.children_image {
+    height: 350px;
+    width: 40vw;
+    background-color: rgb(124, 124, 9);
+    background-image: url(/images/children.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 6th div  */
+
+.faqs{
+    margin-top: 8px;
+    width: 100%;
+    min-height: 144vh;
+    background-color: black;
+    /* overflow-y:; */
+}
+.faqs h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+/* Centers horizontally */
+.qna{
+    /* max-width: 500px; */
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* Button default resets */
+  button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  /* Styling the accordion buttons */
+  .accordion{
+    width: 100%;
+    height: 80px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 25px;
+    padding: 18px 20px;
+    margin-bottom: 4px;
+    text-align: left;
+    /*  To push the plus sign to the right  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* adding the "plus" sign (+) */ 
+  .accordion::after{
+    content: '\02795';
+    font-size: 20px;
+    color: #fff;
+  }
+  .panel{
+    background-color: #303030;
+    color: #fff;
+    margin-bottom: 4px;
+    overflow: hidden;
+    transition: max-height .33s cubic-bezier(.5,0,.1,1);
+  }
+  .panel > p {
+    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+
+  }
+  .panel-closed{
+    max-height: 0;
+    overflow: hidden;
+  }
+  .panel-open{
+    max-height: 700px;
+  }
+  /* active class for accordion, adds the "cross sign (x)" */
+  .accordion-active::after {
+    content: "\274C";
+  }
+
+
+  .faqs-form{
+    height: 220px;
+    padding-top:3%;
+    width: 100%;
+    text-align: center;
+  }
+  .faqs-form .email{
+    padding-top: 2%;
+  }
+
+/* 7th div  */
+
+.footer {
+    margin-top: 8px;
+    width: 100vw;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer_heading {
+    width: 80vw;
+    height: 30px;
+    color: rgb(151, 149, 149);
+    font-weight: 500;
+}
+
+.footer_links {
+    width: 80vw;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+ul li {
+    margin: 1px;
+    height: 30px;
+    width: 350px;
+    display: inline-block;
+
+}
+.footer_button p {
+    color: rgb(151, 149, 149);
+    font-weight: 500;
+}
+
+.footer_button {
+    width: 80vw;
+    height: 80px;
+    padding-top: 2px;
+    padding-left: 2px;
+    
+}
+.footer_button select{
+    background-color: rgb(35,35,35);
+}
